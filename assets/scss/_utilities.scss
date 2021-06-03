@@ -1,0 +1,53 @@
+// fix weight
+.normalWeight{
+    width: 60px;
+}
+//fix height
+.normalHeight{
+height: 60px;
+}
+// .smallCube{
+//     width: 50px;
+//     height: 50px;
+//     line-height: 40px;
+//     text-align: center;
+// }
+.normalCube{
+    width: 60px;
+    height: 60px; 
+    line-height: 50px;
+    background-color: $KMTcolor;
+}
+.lineHeightNormal{
+line-height: 50px;
+}
+//color
+.bgGradient{
+    background: $KMTcolor;
+    background: linear-gradient(180deg,$KMTcolor 0%, $green 100%);
+}
+.bgGradientSecond{
+    background: $darkBlue;
+    background: linear-gradient(90deg,$darkBlue 25%, $blue 100%);
+}
+
+//  *!  link style
+.lightLink{
+    color: $white;
+    text-decoration: none;
+}
+
+
+
+//view container height
+// .containerHeight{
+//     height: calc(100vh - 80px);
+// }
+
+
+
+//google font icon size
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }

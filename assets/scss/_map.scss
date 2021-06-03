@@ -1,0 +1,17 @@
+/*color*/
+.kmtLink{
+    fill:$KMTcolor;
+    stroke: $white;
+}
+.dppLink{    
+    fill:$DPPcolor;
+    stroke: $white;
+
+}
+.tppLink{
+    fill:$TPPcolor;
+    stroke: $white;
+}
+.kmtLink:hover,.dppLink:hover,.tppLink:hover{
+    opacity: 0.5;
+}
