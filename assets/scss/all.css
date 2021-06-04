@@ -11874,14 +11874,21 @@ body {
 .mainContainer {
   width: 100vw;
   height: 95vh;
-  padding-left: 260px;
+  margin-left: 260px;
 }
 
-.AAA {
+.secondNav {
   width: 200px;
   margin-left: 60px;
   position: fixed;
   height: 95vh;
-  display: none;
+}
+
+.blackLink {
+  padding: 0.5rem 1rem;
+  color: #000;
+  text-decoration: none;
+  display: block;
+  margin: 1rem 0;
 }
 /*# sourceMappingURL=all.css.map */
